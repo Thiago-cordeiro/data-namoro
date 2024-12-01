@@ -4,7 +4,7 @@ var d = document.getElementById('dia');
 
 function hora(){
     const novaData = new Date();
-    const dataDefinida = new Date('2024-09-07T14:30:00');
+    const dataDefinida = new Date('2024-09-07T12:00:00');
 
     const diferença = novaData.getTime() - dataDefinida.getTime();
  
